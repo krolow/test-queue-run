@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "queue-run": "^0.14.0",
+    "queue-run-cli": "^0.14.0"
+  }
+}

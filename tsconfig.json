@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "queue-run/dist",
+    "moduleResolution": "node",
+    "paths": {
+      "#api/*": ["./api/*"],
+      "#lib/*": ["./lib/*"],
+      "#queues/*": ["./queues/*"],
+      "#schedules/*": ["./schedules/*"],
+      "#socket/*": ["./socket/*"]
+    },
+    "target": "esnext"
+  },
+  "include": ["queue-run.env.d.ts", "**/*.ts", "**/*.tsx"]
+}
